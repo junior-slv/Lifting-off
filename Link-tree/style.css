@@ -8,8 +8,8 @@ body {
     margin-left: 3%;
     border: 3px solid #BB99DD;
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 15vw;
+    height: 30vh;
 }
 a {
     text-decoration: none;
@@ -28,7 +28,7 @@ a {
     color: #BB99DD;
     margin: auto;
     margin-bottom: 15px;
-    width: 20%;
+    width: 20vw;
     padding: 10px;
     border: 1px solid #BB99DD;
 }
@@ -38,7 +38,7 @@ a {
     color: #BB99DD;
     margin: auto;
     margin-bottom: 15px;
-    width: 20%;
+    width: 20vw;
     padding: 10px;
     border: 1px solid #BB99DD; 
 }
@@ -48,7 +48,7 @@ a {
     color: #BB99DD;
     margin: auto;
     margin-bottom: 15px;
-    width: 20%;
+    width: 20vw;
     padding: 10px;
     border: 1px solid #BB99DD;   
 }.link-4 {
@@ -57,7 +57,7 @@ a {
     color: #BB99DD;
     margin: auto;
     margin-bottom: 45px;
-    width: 20%;
+    width: 20vw;
     padding: 10px;
     border: 1px solid #BB99DD;   
 }
