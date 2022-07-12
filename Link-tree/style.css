@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 body {
     text-align: center;
-    background-color: #FAF7FD;
+    background-color: #F8F9D7;
   }
 
 .profile-photo{
     margin-left: 3%;
-    border: 3px solid #BB99DD;
+    border: 3px solid #6E85B7;
     border-radius: 50%;
     width: 15vw;
     height: 30vh;
@@ -16,7 +16,7 @@ a {
 }
 .instagram{
     margin-left: 3%;
-    color: #BB99DD;
+    color: #6E85B7;
     font-family: 'Poppins', sans-serif;
 }
 .link {
@@ -25,41 +25,41 @@ a {
 .link-1 {
     text-align: center;
     font-size:15px;
-    color: #BB99DD;
+    color: #6E85B7;
     margin: auto;
     margin-bottom: 15px;
     width: 20vw;
     padding: 10px;
-    border: 1px solid #BB99DD;
+    border: 1px solid #6E85B7;
 }
 .link-2 {
     text-align: center;
     font-size:15px;
-    color: #BB99DD;
+    color: #6E85B7;
     margin: auto;
     margin-bottom: 15px;
     width: 20vw;
     padding: 10px;
-    border: 1px solid #BB99DD; 
+    border: 1px solid #6E85B7; 
 }
 .link-3 {
     text-align: center;
     font-size:15px;
-    color: #BB99DD;
+    color: #6E85B7;
     margin: auto;
     margin-bottom: 15px;
     width: 20vw;
     padding: 10px;
-    border: 1px solid #BB99DD;   
+    border: 1px solid #6E85B7;   
 }.link-4 {
     text-align: center;
     font-size:15px;
-    color: #BB99DD;
+    color: #6E85B7;
     margin: auto;
     margin-bottom: 45px;
     width: 20vw;
     padding: 10px;
-    border: 1px solid #BB99DD;   
+    border: 1px solid #6E85B7;   
 }
 .social{
     margin-left: 4%;
