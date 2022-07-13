@@ -7,21 +7,40 @@
     <title>Contacts</title>
 </head>
 <body>
-    <fieldset>
-        <legend>Contact</legend>
-        Subject: 
-        <select name="Subject">
-            <option value="Suport">Suport</option>
-            <option value="Sugestion" selected>Sugestion</option>
-            <option value="Complaint">Complaint</option> 
-          </select>
-        <p>Full name: </p>
-        <input type="">
-
-        <p>E-mail: </p>
-        <input type="">
-        
-
-    </fieldset>
+    <div id="contact-menu">
+        <fieldset>
+            <legend>Contact</legend>
+            <form id="mutiple-choice">        
+                <label for=""><strong>Subject: </strong></label>
+                <select name="Subject">
+                <option value="Suport">Suport</option>
+                <option value="Sugestion" selected>Sugestion</option>
+                <option value="Complaint">Complaint</option>
+                </select><br> 
+            </form>
+            <p>
+                <form id="fullname-field">
+                    <label for=""><strong>Full name: </strong></label> <br>
+                    <input placeholder="Your name"type="">
+                </form>
+            </p>
+            <form id="email-field">
+                <label for=""><strong>E-mail: </strong></label><br>
+                <input placeholder="email@yourdomain.com" type=""> <br>
+            </form>
+            <p>
+                <form id="text-box" action="">
+                    <label><strong>Message: </strong></label> <br>
+                    <textarea name="" id="" cols="30" rows="10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis fuga deleniti corporis ducimus itaque? Vitae delectus commodi ducimus eligendi necessitatibus porro maxime magni soluta at assumenda, sunt libero, dolores aspernatur?</textarea>
+                </form>
+            </p>
+            <form id="checkbox-button" action="">
+                <input  type="checkbox">Send me news by email! <br>           
+                <p>
+                    <button>Send</button>
+                </p>
+            </form>
+        </fieldset>
+    </div>
 </body>
 </html>
