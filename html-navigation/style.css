@@ -92,6 +92,41 @@ a.blog-hiperlink1:hover {
 }
 a.blog-hiperlink2:hover {
     color: red;
-}a.blog-hiperlink3:hover {
+}
+a.blog-hiperlink3:hover {
     color: red;
+}
+/*GLOSSARY STYLE*/
+.glossary-background{
+    background-color: #5b0d93;
+}
+.glossary-fieldset{
+    background-color: white;
+}
+/*QUIZ STYLE*/
+.quiz-background{
+    background-color: #5b0d93;
+}
+.test{
+    padding-left: 2rem;
+    background-color: white;
+}
+.blog-button{
+    border-radius: 25px;
+    color: white;
+    background-color: #5b0d93;
+}
+button.blog-button:hover {
+    color: red;
+}
+/*LIST STYLE*/
+.list-background{
+    background-color: #5b0d93;
+}
+.list-form{
+    background-color: white;
+}
+input[type="checkbox"]:checked {
+    color: red;
+
 }
