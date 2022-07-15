@@ -23,6 +23,7 @@ a {
     font-family: 'Poppins', sans-serif;
 }
 .link-1 {
+    border-radius: 10px;
     text-align: center;
     font-size:15px;
     color: #BB99DD;
@@ -33,6 +34,7 @@ a {
     border: 1px solid #BB99DD;
 }
 .link-2 {
+    border-radius: 10px;
     text-align: center;
     font-size:15px;
     color: #BB99DD;
@@ -43,6 +45,7 @@ a {
     border: 1px solid #BB99DD; 
 }
 .link-3 {
+    border-radius: 10px;
     text-align: center;
     font-size:15px;
     color: #BB99DD;
@@ -52,6 +55,7 @@ a {
     padding: 10px;
     border: 1px solid #BB99DD;   
 }.link-4 {
+    border-radius: 10px;
     text-align: center;
     font-size:15px;
     color: #BB99DD;
