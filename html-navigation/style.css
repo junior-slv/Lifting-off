@@ -1,4 +1,4 @@
-
+/*MAIN MENU STYLE*/
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 * {
     font-family: 'Josefin Sans', sans-serif;
@@ -11,12 +11,10 @@
     padding-top: 0;
     margin: 0;
 }
-
 .menu-main {
     padding-top: 1rem;
     margin: 0;
 }
-
 .menu-title {
     border-radius: 15px;
     font-size: 3rem;
@@ -41,14 +39,59 @@
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
-
 a {
     color: #5b0d93;
     text-decoration: none;
 }
-a:hover{
+a.list1:hover{
+    color: red;
+}
+a.list2:hover{
+    color: red;
+}a.list3:hover{
+    color: red;
+}a.list4:hover{
+    color: red;
+}a.list5:hover{
     color: red;
 }
 .fieldset {
     background-color: white;
+}
+/*CONTACT STYLE*/
+.contact-background {
+    background-color: #5b0d93;
+}
+.contact-button{
+    border-radius: 25px;
+    color: white;
+    background-color: #5b0d93;
+}
+.contact-button1{
+    border-radius: 25px;
+    color: white;
+    text-decoration: none;
+}
+/*BLOG STYLE*/
+.blog-background {
+    color: white;
+    background-color: #5b0d93;
+    text-align: center;
+}
+.blog-hiperlink1{
+    color: white;
+}
+.blog-hiperlink2{
+    color: white;
+}
+.blog-hiperlink3{
+    color: white;
+}
+a.blog-hiperlink1:hover {
+    color: red;
+}
+a.blog-hiperlink2:hover {
+    color: red;
+}a.blog-hiperlink3:hover {
+    color: red;
 }
