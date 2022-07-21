@@ -1,76 +1,42 @@
-/*MAIN MENU STYLE*/
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 * {
     font-family: 'Josefin Sans', sans-serif;
 }
-.menu-background {
-    background-color: #5b0d93;
-    width: 67vw;
-    height: 67vh;
-    padding: 0;
-    padding-top: 0;
+body{
     margin: 0;
 }
-.menu-main {
-    padding-top: 1rem;
-    margin: 0;
+.main-menu{
+    width: 100vw;
+    height: 100vh;
+    background-color:#5b0d93;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.menu-title {
-    border-radius: 15px;
-    font-size: 3rem;
+.center-menu{
+    width: 20%;
+    flex-direction: column;
+    padding: 30px 35px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+    justify-content: center;
+    align-items: center;
+}
+.center-menu > h1{
     text-align: center;
-    padding-right: 2rem;
-    background-color: white;
-    margin-left: 31rem;
-    margin-right: 32rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
 }
-.container {
-    font-size: 32px;
-    backdrop-filter: blur(20px);
-    border-radius: 15px;
-    color: black;
-    text-align: center;
-    align-content: center;
-    margin: 0 30rem 0 30rem;
-    background-color: whitesmoke;
-    padding-right: 2rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
-a {
-    color: #5b0d93;
+.center-menu > ol > h2 > a{
     text-decoration: none;
+    border: none;
 }
-a.list1:hover{
+.center-menu > ol > h2 > a:hover{
     color: red;
-}
-a.list2:hover{
-    color: red;
-}a.list3:hover{
-    color: red;
-}a.list4:hover{
-    color: red;
-}a.list5:hover{
-    color: red;
-}
-.fieldset {
-    background-color: white;
+    box-shadow: 5px 10px 20px #ff0000fa;
 }
 /*CONTACT STYLE*/
 .contact-background {
     background-color: #5b0d93;
-}
-.contact-button{
-    border-radius: 25px;
-    color: white;
-    background-color: #5b0d93;
-}
-.contact-button1{
-    border-radius: 25px;
-    color: white;
-    text-decoration: none;
 }
 /*BLOG STYLE*/
 .blog-background {
@@ -78,22 +44,10 @@ a.list2:hover{
     background-color: #5b0d93;
     text-align: center;
 }
-.blog-hiperlink1{
+.blog-hiperlink1, .blog-hiperlink2, .blog-hiperlink3{
     color: white;
 }
-.blog-hiperlink2{
-    color: white;
-}
-.blog-hiperlink3{
-    color: white;
-}
-a.blog-hiperlink1:hover {
-    color: red;
-}
-a.blog-hiperlink2:hover {
-    color: red;
-}
-a.blog-hiperlink3:hover {
+a.blog-hiperlink1:hover, a.blog-hiperlink2:hover, a.blog-hiperlink3:hover {
     color: red;
 }
 /*GLOSSARY STYLE*/
@@ -111,14 +65,6 @@ a.blog-hiperlink3:hover {
     padding-left: 2rem;
     background-color: white;
 }
-.blog-button{
-    border-radius: 25px;
-    color: white;
-    background-color: #5b0d93;
-}
-button.blog-button:hover {
-    color: red;
-}
 /*LIST STYLE*/
 .list-background{
     background-color: #5b0d93;
@@ -129,4 +75,10 @@ button.blog-button:hover {
 input[type="checkbox"]:checked {
     color: red;
 
+}
+
+@media only screen and (max-width: 600px){
+    .center-menu{
+        width: 45%;
+    }
 }
