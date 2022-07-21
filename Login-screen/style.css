@@ -94,12 +94,12 @@ body *{
     box-shadow: 0px 10px 40px -12px #00ff8052;
 }
 
-@media only screen and (max-widht: 950px){
+@media only screen and (max-width: 950px){
     .card-login{
         width: 85%;
     }
 }
-@media only screen and (max-widht: 600px){
+@media only screen and (max-width: 600px){
     .main-login{
         flex-direction: column;
     }
@@ -109,12 +109,10 @@ body *{
     .left-login{
         width: 100%;
         height: auto;
-
     }
     .right-login{
         width: 100%;
-        height: auto;
-        
+        height: auto;   
     }
     .left-login-image{
         width: 50vw;
